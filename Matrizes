@@ -6,8 +6,10 @@ Q1==============================================================================
 
 #include <stdio.h>
 
+//Escreva um programa utilizando a Linguagem C que leia 2 matrizes 5 × 5, mostre-as na tela e mostre a soma entre as duas matrizes em seguida.
+
 int main(){
-		
+
 	int matrizA[5][5], matrizB[5][5], matrizC[5][5], i, j;
 	
 	printf("Preencha a matriz A:\n");
@@ -46,6 +48,8 @@ Q2 =============================================================================
 
 #include <stdio.h>
 
+//Escreva um programa utilizando a Linguagem C que leia uma matriz 4 x 4, conte e escreva quantos valores maiores que 10 ela possui.
+
 int main(){
 		
 	int matrizA[4][4],maiorqdez=0, i, j;
@@ -74,6 +78,8 @@ int main(){
 Q3 ==================================================================================================================
 
 #include <stdio.h>
+
+//Escreva um programa utilizando a Linguagem C que leia uma matriz 5 x 5. E mostre apenas os valores contidos na diagonal principal.
 
 int main(){
 		
@@ -104,6 +110,8 @@ int main(){
 Q4 ===================================================================================================================
 
 #include <stdio.h>
+
+//Escreva um programa utilizando a Linguagem C Leia uma matriz 4 x 4, imprima a matriz e retorne a localização (linha e a coluna) do maior valor.
 
 int main(){
 		
@@ -140,6 +148,8 @@ int main(){
 Q5 ==================================================================================================================
 
 #include <stdio.h>
+
+//Leia uma matriz de 3 x 3 elementos. Calcule a soma dos elementos que estão acima da diagonal principal.
 
 int main() {
     int matriz[3][3];
